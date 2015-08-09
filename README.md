@@ -12,9 +12,9 @@ An useful ES7 class decorator lib.
 
 ### Descriptor Decorators
 
-* [writable(writable: Bool)](#writable-bool)
-* [enumerable(enumerable: Bool)](#enumerable-bool)
-* [configurable(configurable: Bool)](#configurable-bool)
+* [writable(writable: Bool)](#writablewritable-bool)
+* [enumerable(enumerable: Bool)](#enumerableenumerable-bool)
+* [configurable(configurable: Bool)](#configurableconfigurable-bool)
 
 ### Class Decorators
 
@@ -38,7 +38,7 @@ An useful ES7 class decorator lib.
 
 ### Dev Decorators
 
-* [trace({logger, blackList, whiteList, perf})](#tracelogger-blackList-whitelist-perf)
+* [trace({logger, blackList, whiteList, perf})](#trace-logger-blacklist-whitelist-perf)
 * [deprecated(hint)](#deprecatedhint)
 
 ### React Component Decorators
