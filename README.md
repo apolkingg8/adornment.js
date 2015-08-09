@@ -1,6 +1,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Built with babel](http://img.shields.io/badge/transpiled%20with-babel-bfb222.svg?style=flat-square)](http://babeljs.io/)
-[![jest pass](https://img.shields.io/badge/jest-pass-green.svg?style=flat-square)](https://facebook.github.io/jest/docs/api.html#config-collectcoverage-boolean)
+[![jest pass](https://img.shields.io/badge/jest-pass-green.svg?style=flat-square)](https://facebook.github.io/jest/)
 
 # Adornment.js
 An useful ES7 class decorator lib.
@@ -30,7 +30,7 @@ An useful ES7 class decorator lib.
 * [defer](#defer)
 * [delay(wait: Number)](#delaywait-number)
 * [throttle(wait: Number)](#throttlewait-number)
-* [debounce](#debounce)
+* [debounce(wait: Number)](#debouncewait-number)
 * [once](#once)
 * [before(times: Number)](#beforetimes-number)
 * [after(times: Number)](#aftertimes-number)
