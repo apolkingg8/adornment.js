@@ -128,18 +128,13 @@ class A {
     foo() {
         return this
     }
-
-    bar() {
-        return this
-    }
+    
 }
 
 var a = new A()
-var _foo = a.foo,
-    _bar = a.bar
+var _foo = a.foo
 
-console.log(_foo() === a) // true
-console.log(_bar()) // window or undefined
+_foo() === a // true
 ```
 
 **NOTICE:** `@autoBind` should put **AFTER ALL** other decorators. For example:
