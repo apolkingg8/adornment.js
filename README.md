@@ -98,7 +98,7 @@ delete A.prototype.foo // throw Error
 ```
 ### Class Decorators
 
-#### decorate(methods: Array<Function>)
+#### decorate(methods: Array\<Function\>)
 Decorate methods on your class.
 
 ```js
