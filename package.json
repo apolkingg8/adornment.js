@@ -1,16 +1,30 @@
 {
-  "name": "decorate_js",
-  "version": "1.0.0",
-  "description": "",
+  "name": "adornment",
+  "version": "0.0.1",
+  "description": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)\r [![Built with babel](http://img.shields.io/badge/transpiled%20with-babel-bfb222.svg?style=flat-square)](http://babeljs.io/)",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest-cli": "^0.4.17"
   },
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "apolkingg8",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apolkingg8/Adornment.js.git"
+  },
+  "keywords": [
+    "decorate",
+    "decorator",
+    "ES7",
+    "ES6",
+    "class"
+  ],
+  "bugs": {
+    "url": "https://github.com/apolkingg8/Adornment.js/issues"
+  },
+  "homepage": "https://github.com/apolkingg8/Adornment.js"
 }

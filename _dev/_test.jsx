@@ -1,4 +1,4 @@
-import Deco from './deco'
+import Deco from '../adornment.js'
 //console.log('Deco', Deco)
 
 var {

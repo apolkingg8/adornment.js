@@ -1,57 +1,57 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Built with gulp](http://img.shields.io/badge/built%20with-gulp-red.svg?style=flat-square)](http://gulpjs.com/)
 [![Built with babel](http://img.shields.io/badge/transpiled%20with-babel-bfb222.svg?style=flat-square)](http://babeljs.io/)
+[![tests pass](https://img.shields.io/badge/style-flat--squared-green.svg?style=tests-pass)]
 
 # Adornment.js
 An useful ES7 class decorator lib.
 
 ## Install
-`npm install adornment-js --save`
+`npm install adornment --save`
 
 ## Menu
 
 ### Descriptor Decorators
 
-* [writable](#writableBool)
-* enumerable(Bool)
-* configurable(Bool)
+* [writable(writable: Bool)](#writable-bool)
+* [enumerable(enumerable: Bool)](#enumerable-bool)
+* [configurable(configurable: Bool)](#configurable-bool)
 
 ### Class Decorators
 
-* decorate()
-* autoBind
+* [decorate(methods: Array<Function>)](#decoratemethods-arrayfunction)
+* [autoBind](#autobind)
 
 ### Method Decorators
 
-* bindWith(target: Object)
-* memoize
-* curry
-* curryRight
-* defer
-* delay(wait: Number)
-* throttle(wait: Number)
-* debounce
-* once
-* before(times: Number)
-* after(times: Number)
-* argWith(Function)
+* [bindWith(target: Object)](#bindwithtarget-object)
+* [memoize](#memoize)
+* [curry](#curry)
+* [curryRight](#curryright)
+* [defer](#defer)
+* [delay(wait: Number)](#delaywait-number)
+* [throttle(wait: Number)](#throttlewait-number)
+* [debounce](#debounce)
+* [once](#once)
+* [before(times: Number)](#beforetimes-number)
+* [after(times: Number)](#aftertimes-number)
+* [argWith(func: Function)](#argwithfunc-function)
 
 ### Dev Decorators
 
-* trace({logger, blackList, whiteList, perf})
-* deprecated(hint)
+* [trace({logger, blackList, whiteList, perf})](#tracelogger-blackList-whitelist-perf)
+* [deprecated(hint)](#deprecatedhint)
 
 ### React Component Decorators
 
-* traceComponent({logger, perf})
-* reactMixin(Mixin)
+* [traceComponent({logger, perf})](#tracecomponentlogger-perf)
+* [reactMixin(Mixin)](#reactmixinmixin)
 
 
 ## Usage
 
 ### Descriptor Decorators
 
-#### writable(Bool) 
+#### writable(writable: Bool) 
 ```js
 class A {
 
@@ -66,7 +66,7 @@ a.foo = 123 // throw error
 ```
 notice: Can not use `@writable` with ES7 class props, that will cause initial fail.
  
-#### enumerable(Bool)
+#### enumerable(enumerable: Bool)
 ```js
 class A {
 
@@ -369,7 +369,7 @@ a.foo(1, 2) // => null
 a.foo(1, 2) // => 3
 ```
 
-#### argWith(Function)
+#### argWith(func: Function)
 ```js
 class A {
 
@@ -392,13 +392,11 @@ a.foo(1,2) // => 3
 a.foo({a:1, b:2}) // => 3
 ```
 
-#### returnWith(Function)
-WIP
-
 ### Dev Decorators
 
 #### trace({logger, blackList, whiteList, perf})
 Log function input, output and cost time.
+* `logger: Function`: You can use cust logger like [debug](https://www.npmjs.com/package/debug), default use `console.log` 
 ```js
 class A {
 
@@ -513,7 +511,7 @@ class A extends React.Component {
 WIP
 
 ###
-Test with jest:
+[Tests](src/__tests__/) with [jest](https://github.com/facebook/jest).
 ```
 npm test
 ```

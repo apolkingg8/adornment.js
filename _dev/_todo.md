@@ -1,7 +1,5 @@
 ### TODO
 
-* returnWith(Function)
-
 * curry
 * curryRight
 
