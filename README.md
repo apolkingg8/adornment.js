@@ -510,7 +510,7 @@ class A extends React.Component {
 #### reactMixin(Mixin)
 WIP
 
-###
+### Test
 [Tests](src/__tests__/) with [jest](https://github.com/facebook/jest).
 ```
 npm test

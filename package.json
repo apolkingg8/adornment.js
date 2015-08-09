@@ -1,6 +1,6 @@
 {
   "name": "adornment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)\r [![Built with babel](http://img.shields.io/badge/transpiled%20with-babel-bfb222.svg?style=flat-square)](http://babeljs.io/)",
   "main": "index.js",
   "dependencies": {},
