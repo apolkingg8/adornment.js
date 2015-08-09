@@ -1,6 +1,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Built with babel](http://img.shields.io/badge/transpiled%20with-babel-bfb222.svg?style=flat-square)](http://babeljs.io/)
-[![tests pass](https://img.shields.io/badge/style-flat--squared-green.svg?style=tests-pass)]
+[![tests pass](https://img.shields.io/badge/tests-pass--squared-green.svg?style=flat-square)]
 
 # Adornment.js
 An useful ES7 class decorator lib.
