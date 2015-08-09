@@ -2,7 +2,7 @@
 [![Built with babel](http://img.shields.io/badge/transpiled%20with-babel-bfb222.svg?style=flat-square)](http://babeljs.io/)
 [![jest pass](https://img.shields.io/badge/jest-pass-green.svg?style=flat-square)](https://facebook.github.io/jest/)
 
-# Adornment.js
+# adornment.js
 An useful ES7 class decorator lib.
 
 ## Install

@@ -1,5 +1,8 @@
 ### TODO
 
+* watch((oldVal, newVal)=>)
+https://gist.github.com/eligrey/384583
+
 * curry
 * curryRight
 
