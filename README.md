@@ -18,7 +18,7 @@ An useful ES7 class decorator lib.
 
 ### Class Decorators
 
-* [decorate(methods: Array<Function>)](#decoratemethods-arrayfunction)
+* [decorate(methods: Array\<Function\>)](#decoratemethods-arrayfunction)
 * [autoBind](#autobind)
 
 ### Method Decorators
